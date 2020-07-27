@@ -5,4 +5,3 @@ install:
   - pip install pipenv
   - pipenv install --dev
   - flake8
-  - pytest
