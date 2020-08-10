@@ -1,1 +1,2 @@
 DEBUG=True
+SECRET_KEY=define sua chave secreta. You can use get_random_secret_key() method from django.core.management.utils.
