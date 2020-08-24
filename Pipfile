@@ -17,6 +17,7 @@ gunicorn = "*"
 python-decouple = "*"
 dj-database-url = "*"
 django-s3-folder-storage = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
