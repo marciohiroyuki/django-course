@@ -1,3 +1,8 @@
 DEBUG=True
 SECRET_KEY=define sua chave secreta. You can use get_random_secret_key() method from django.core.management.utils.
+ALLOWED_HOSTS=localhost, 127.0.0.1
 
+# Configuracoes do AWS
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_STORAGE_BUCKET_NAME=
