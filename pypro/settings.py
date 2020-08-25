@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'collectfast',
     'django.contrib.staticfiles',
     'pypro.base',
+
 ]
 
 MIDDLEWARE = [
@@ -132,6 +133,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 MEDIA_URL = os.path.join(BASE_DIR, 'mediafiles')
 COLLECTFAST_STRATEGY = 'collectfast.strategies.boto3.Boto3Strategy'
+COLLECTFAST_ENABLED = False
+
 COLLECTFAST_ENABLED = False
 
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
