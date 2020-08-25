@@ -19,6 +19,8 @@ dj-database-url = "*"
 django-s3-folder-storage = "*"
 psycopg2 = "*"
 collectfast = "*"
+django-debug-toolbar = "*"
+sentry-sdk = "*"
 
 [requires]
 python_version = "3.8"
